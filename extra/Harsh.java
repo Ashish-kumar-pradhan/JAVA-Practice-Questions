@@ -21,7 +21,7 @@ public class Harsh {
 		
 		HashMap<String , Integer> hp = new HashMap<String , Integer>();
 		int n = arr.size();
-		for(int i = 0 ; i < n ; i++) {s
+		for(int i = 0 ; i < n ; i++) {
 			if(hp.containsKey(arr.get(i))) {
 				hp.put(arr.get(i), 2);
 			}
